@@ -6,10 +6,11 @@ import "./StarWars.css";
 
 
 
-
 const Characters = () =>{
 
 const[character,setCharacter] = useState([]);
+
+
 
 
 
@@ -50,7 +51,6 @@ console.log(characterSet1);
 
 {characterSet1.map((char,idx) =>{
 
- 
 
 return (<CharacterInfo
 
@@ -65,6 +65,7 @@ return (<CharacterInfo
  power3 ={char.name === "Luke Skywalker" ? luke.power3:vader.power3}
  power4 ={char.name === "Luke Skywalker" ? luke.power4:vader.power4}
  power5 ={char.name === "Luke Skywalker" ? luke.power5:vader.power5}
+ bio = {char.name === "Luke Skywalker" ? luke.bio:vader.bio}
  
 
 
@@ -75,6 +76,7 @@ return (<CharacterInfo
 
 )
 })}
+
 
  
 </div>
