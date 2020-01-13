@@ -1,0 +1,24 @@
+.mainContainer{
+  
+   display: flex;
+   justify-content: space-between;
+  
+    
+}
+
+.vs{
+    display: inline;
+    position: relative;
+    top:400px;
+}
+
+img{
+    outline: 1px solid white;
+}
+.tale{
+    margin-top:5%;
+}
+
+.powers{
+    color:black;
+}
